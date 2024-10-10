@@ -110,7 +110,6 @@ public static class FeatureFlagKeys
     public const string AC2101UpdateTrialInitiationEmail = "AC-2101-update-trial-initiation-email";
     public const string EnableConsolidatedBilling = "enable-consolidated-billing";
     public const string AC1795_UpdatedSubscriptionStatusSection = "AC-1795_updated-subscription-status-section";
-    public const string EnableDeleteProvider = "AC-1218-delete-provider";
     public const string EmailVerification = "email-verification";
     public const string EmailVerificationDisableTimingDelays = "email-verification-disable-timing-delays";
     public const string AnhFcmv1Migration = "anh-fcmv1-migration";
@@ -144,6 +143,9 @@ public static class FeatureFlagKeys
     public const string StorageReseedRefactor = "storage-reseed-refactor";
     public const string TrialPayment = "PM-8163-trial-payment";
     public const string Pm3478RefactorOrganizationUserApi = "pm-3478-refactor-organizationuser-api";
+    public const string RemoveServerVersionHeader = "remove-server-version-header";
+    public const string AccessIntelligence = "pm-13227-access-intelligence";
+    public const string VerifiedSsoDomainEndpoint = "pm-12337-refactor-sso-details-endpoint";
 
     public static List<string> GetAllKeys()
     {
